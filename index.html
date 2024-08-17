@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Contact form</title>
+  </head>
+  <body>
+    <div class="contact-contaner">
+      <h2>Contact Us</h2>
+      <form class="content-form">
+        <div class="user-contact">
+          <div class="first">
+            <label for="firstname">First Name <span>.</span></label>
+            <input type="text" id="firstName" />
+          </div>
+          <div class="last">
+            <label for="lastname">Last Name <span>.</span></label>
+            <input type="text" id="lastName" />
+          </div>
+        </div>
+        <div class="email-address">
+          <label for="email">Email Address <span>.</span></label>
+          <input type="email" id="emailAddress" />
+        </div>
+
+        <div class="queryType">
+          <label for="query">Query Type <span>.</span></label>
+          <div class="query">
+            <div class="general">
+              <input type="radio" id="general" />
+              <p>General Enquiry</p>
+            </div>
+            <div class="support">
+              <input type="radio" id="support"  />
+              <p>Support Request</p>
+            </div>
+          </div>
+        </div>
+        <div class="message-us">
+          <label for="message">Message <span>.</span></label>
+        <textarea name="message" id="message" cols="60" rows="7" ></textarea>
+        </div>
+        
+        <div class="checkbox">
+          <input type="checkbox" name="check" />
+          <p>I consent to being contacted the team</p>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

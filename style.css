@@ -1,0 +1,290 @@
+body {
+  background-color: rgb(215, 231, 245);
+  font-size: 13px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  color: green;
+}
+
+.contact-contaner {
+  width: 35%;
+  height: 73vh;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.content-form {
+  margin: auto 20px;
+  padding-top: 20px;
+}
+
+.contact-contaner h2 {
+  margin: 30px 20px;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #015a25;
+}
+
+.user-contact label {
+  color: grey;
+}
+.user-contact span {
+  color: green;
+}
+
+.user-contact {
+  display: flex;
+  height: 35px;
+  gap: 15px;
+}
+.first label,
+.last label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.first input,
+.last input {
+  width: 320px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+.first input:focus,
+.last input:focus {
+  border-color: #015a25;
+  outline: #015a25;
+  border: 2.5px solid #015a56;
+}
+
+.email-address {
+  margin-top: 80px;
+}
+.email-address label {
+  display: block;
+  color: gray;
+  margin-bottom: 20px;
+}
+.email-address input {
+  width: 96%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.email-address input:focus {
+  border-color: #015a25;
+  outline: #015a25;
+  border: 2.5px solid #015a56;
+}
+
+.queryType label {
+  color: gray;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.query {
+  display: flex;
+  gap: 20px;
+}
+
+.query input {
+  cursor: pointer;
+}
+.general,
+.support {
+  display: flex;
+  padding-left: 20px;
+  gap: 10px;
+  font-size: 1.2rem;
+  align-items: center;
+  border: 1px solid gray;
+  width: 303px;
+  height: 50px;
+  color: gray;
+  border-radius: 5px;
+}
+
+.message-us label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.message-us textarea {
+  width: 97%;
+  border-radius: 5px;
+  resize: none;
+}
+.message-us textarea:focus {
+  border-color: #015a56;
+  outline: #015a56;
+  border: 2.5px solid #015a56;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.checkbox p {
+  color: gray;
+  font-size: 1rem;
+}
+.checkbox input {
+  cursor: pointer;
+}
+
+button {
+  width: 98%;
+  height: 55px;
+  background-color: #015a56;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: #014c48;
+}
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width:  768px) {
+  bode {
+    margin: 0;
+    padding: 0;
+  
+  }
+  .contact-contaner {
+    width: 85%;
+    height: 100%;
+    margin:auto;
+  }
+
+  .user-contact {
+    display: block;
+    margin-top: -30px;
+  }
+
+  .first input,.last input {
+    width: 90%;
+    height: 40px;
+  }
+  .last label {
+    margin-top: 10px;
+  }
+  .email-address {
+    display: block;
+    margin-top: 130px;
+  }
+  .email-address label {
+    margin-bottom: 10px;
+  }
+  .email-address input {
+    width: 90%;
+    height: 40px;
+  }
+  .query {
+    display: block;
+    margin-top: -20px;
+  }
+  .queryType label {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .general ,.support  {
+    width: 85%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .checkbox {
+    margin-top: 2px;
+  }
+  .message-us {
+    width: 92%;
+  }
+
+  button {
+    margin-top: 1px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  bode {
+    margin: 0;
+    padding: 0;
+  
+  }
+  .contact-contaner {
+    width: 85%;
+    height: 100%;
+    margin:auto;
+  }
+
+  .user-contact {
+    display: block;
+    margin-top: -30px;
+  }
+
+  .first input,.last input {
+    width: 90%;
+    height: 40px;
+  }
+  .last label {
+    margin-top: 10px;
+  }
+  .email-address {
+    display: block;
+    margin-top: 130px;
+  }
+  .email-address label {
+    margin-bottom: 10px;
+  }
+  .email-address input {
+    width: 90%;
+    height: 40px;
+  }
+  .query {
+    display: flex;
+    margin-top: -20px;
+  }
+  .queryType label {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .general ,.support  {
+    width: 41%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .checkbox {
+    margin-top: 2px;
+  }
+  .message-us {
+    width: 94%;
+  }
+
+  button {
+    width: 94%;
+    margin-top: 1px;
+  }
+}
