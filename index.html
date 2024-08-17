@@ -21,15 +21,18 @@
           <div class="first">
             <label for="firstname">First Name <span>.</span></label>
             <input type="text" id="firstName" />
+            <p class="first-msg msg"></p>
           </div>
           <div class="last">
             <label for="lastname">Last Name <span>.</span></label>
             <input type="text" id="lastName" />
+            <p class="last-msg msg"></p>
           </div>
         </div>
         <div class="email-address">
           <label for="email">Email Address <span>.</span></label>
           <input type="email" id="emailAddress" />
+          <p class="email-msg msg"></p>
         </div>
 
         <div class="queryType">
@@ -54,8 +57,10 @@
           <input type="checkbox" name="check" />
           <p>I consent to being contacted the team</p>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" id="btn">Submit</button>
       </form>
     </div>
+
+    <script src="./form.js"></script>
   </body>
 </html>
