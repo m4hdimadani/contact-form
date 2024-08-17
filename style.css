@@ -1,8 +1,10 @@
 body {
-  background-color: rgb(215, 231, 245);
+  background-image: url(./design/238.jpg);
   font-size: 13px;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  
 }
 span {
   color: green;
@@ -170,7 +172,6 @@ button:hover {
   bode {
     margin: 0;
     padding: 0;
-  
   }
   .contact-contaner {
     width: 85%;
@@ -270,7 +271,7 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  
+
   .general ,.support  {
     width: 41.5%;
     height: 40px;
