@@ -46,16 +46,16 @@ span {
 .first label,
 .last label {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 .first input,
 .last input {
-  width: 320px;
+  width: 290px;
   height: 50px;
   border-radius: 5px;
   border: 1px solid gray;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .first input:focus,
 .last input:focus {
@@ -65,12 +65,12 @@ span {
 }
 
 .email-address {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .email-address label {
   display: block;
   color: gray;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .email-address input {
   width: 96%;
@@ -87,8 +87,8 @@ span {
 .queryType label {
   color: gray;
   display: block;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .query {
@@ -107,7 +107,7 @@ span {
   font-size: 1.2rem;
   align-items: center;
   border: 1px solid gray;
-  width: 303px;
+  width: 43%;
   height: 50px;
   color: gray;
   border-radius: 5px;
@@ -115,7 +115,7 @@ span {
 
 .message-us label {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
   color: gray;
 }
@@ -134,7 +134,7 @@ span {
 .checkbox {
   display: flex;
   gap: 10px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .checkbox p {
