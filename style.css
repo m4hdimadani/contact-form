@@ -253,7 +253,7 @@ button:hover {
   }
   .email-address {
     display: block;
-    margin-top: 130px;
+    margin-top: 120px;
   }
   .email-address label {
     margin-bottom: 10px;
@@ -270,11 +270,13 @@ button:hover {
     margin-top: 10px;
     margin-bottom: 30px;
   }
+  
   .general ,.support  {
-    width: 41%;
+    width: 41.5%;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 1rem;
+    
   }
   .checkbox {
     margin-top: 2px;
