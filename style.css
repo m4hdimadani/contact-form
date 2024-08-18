@@ -17,6 +17,8 @@ span {
   margin: 100px auto;
   padding-left: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px; 
+  
 }
 .content-form {
   margin: auto 20px;
@@ -113,6 +115,16 @@ span {
   color: gray;
   border-radius: 5px;
 }
+.query input[type="radio"]:disabled + p {
+  color: #ccc; 
+}
+
+.query.selected {
+  background-color: #d4edda; 
+  border-color: #28a745; 
+  color: #155724; 
+}
+
 
 .message-us label {
   display: block;
@@ -196,6 +208,22 @@ button:hover {
   max-width: 500px;
   border-radius: 10px;
   text-align: center;
+}
+
+.error-message {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #e74c3c;
+}
+input.success, textarea.success {
+  border: 2px solid #015a25;
+}
+
+input.error, textarea.error {
+  border: 2px solid #e74c3c;
+}
+input.email-error {
+  margin-bottom: 20px; 
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
